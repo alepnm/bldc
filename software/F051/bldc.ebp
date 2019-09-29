@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="1.11" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="bldc" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Output\bin\Debug\template.elf" />
+				<Option object_output="Output\obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-g3" />
+					<Add option="-O0" />
+					<Add option="-Wall" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Cpp>
+					<Add option="-g3" />
+					<Add option="-O0" />
+					<Add option="-Wall" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Cpp>
+				<Assembler>
+					<Add option="-Wa,--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="Output\bin\Release\template.elf" />
+				<Option object_output="Output\obj\Release\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Cpp>
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Cpp>
+				<Assembler>
+					<Add option="-Wa,--no-warn" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m0" />
+			<Add option="$lscript=Startup/stm32f051c8_flash.ld" />
+			<Add option="$stack=0x0100" />
+			<Add option="$heap=0x0000" />
+		</Device>
+		<Compiler>
+			<Add option="-mfloat-abi=soft" />
+			<Add option="-fno-strict-aliasing" />
+			<Add symbol="STM32F051x8" />
+			<Add symbol="USE_FULL_LL_DRIVER" />
+			<Add directory=".\Inc" />
+			<Add directory="Drivers\STM32F0xx_HAL_Driver\Inc" />
+			<Add directory="Drivers\CMSIS\Include" />
+			<Add directory="Drivers\CMSIS\Device\ST\STM32F0xx\Include" />
+			<Add directory="Src\lib\systick" />
+			<Add directory="Src\lib\L6470" />
+			<Add directory="Src\lib\sound" />
+		</Compiler>
+		<Linker>
+			<Add option="-eb_lib=n" />
+			<Add option="-eb_start_files" />
+		</Linker>
+		<Unit filename="Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f051x8.h" />
+		<Unit filename="Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_adc.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_bus.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_comp.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_cortex.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_crc.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_crs.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_dac.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_dma.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_exti.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_gpio.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_i2c.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_iwdg.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_pwr.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_rcc.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_rtc.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_spi.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_system.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_tim.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_usart.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_utils.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_ll_wwdg.h" />
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_comp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_crs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Inc\globals.h" />
+		<Unit filename="Inc\main.h" />
+		<Unit filename="Inc\stm32f0xx_it.h" />
+		<Unit filename="Inc\types.h" />
+		<Unit filename="libs\bldc\bldc.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="libs\bldc\bldc.h" />
+		<Unit filename="Src\globals.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\stm32f0xx_it.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\system_stm32f0xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Startup\startup_stm32f0xx.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Debug" active_interface="ST-link">
+					<debug_interface interface_id="ST-link" ip_address="localhost" ip_port="4242" path="${EMBITZ}\share\contrib" executable="STLinkGDB.exe" description="" dont_start_server="false" backoff_time="1000" options="0" reg_filter="0" active_family="STMicroelectronics" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="STMicroelectronics">
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x08000000" />
+							<option opt_id="ID_RESET_TYPE" opt_value="System" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_VEC_TABLE" opt_value="1" />
+							<option opt_id="ID_DONT_CONN_RESET" opt_value="0" />
+							<option opt_id="ID_ALL_MODE_DEBUG" opt_value="0" />
+							<option opt_id="ID_DEV_ADDR" opt_value="" />
+							<option opt_id="ID_VERBOSE_LEVEL" opt_value="3" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+				<target_debugging_settings target="Release" active_interface="ST-link">
+					<debug_interface interface_id="ST-link" ip_address="localhost" ip_port="4242" path="${EMBITZ}\share\contrib" executable="STLinkGDB.exe" description="" dont_start_server="false" backoff_time="1000" options="0" reg_filter="0" active_family="STMicroelectronics" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="STMicroelectronics">
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x08000000" />
+							<option opt_id="ID_RESET_TYPE" opt_value="System" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_VEC_TABLE" opt_value="1" />
+							<option opt_id="ID_DONT_CONN_RESET" opt_value="0" />
+							<option opt_id="ID_ALL_MODE_DEBUG" opt_value="0" />
+							<option opt_id="ID_DEV_ADDR" opt_value="" />
+							<option opt_id="ID_VERBOSE_LEVEL" opt_value="3" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</EmBitz_project_file>

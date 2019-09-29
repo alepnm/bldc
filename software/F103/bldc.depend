@@ -1,0 +1,4477 @@
+# depslib dependency file v1.0
+1556017684 source:c:\working\git\ihouse\software\controller\f1\core\src\main.c
+	"main.h"
+	<stdio.h>
+	"bsp.h"
+	"mb.h"
+	"user_mb_app.h"
+
+1555998258 c:\working\git\ihouse\software\controller\f1\core\inc\main.h
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+	"bsp.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_adc.h
+	"stm32f1xx.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\system_stm32f1xx.h
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f105xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f107xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_i2c.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rcc.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_bus.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_system.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_exti.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_cortex.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_utils.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_pwr.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dma.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usart.h
+	"stm32f1xx.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
+	"stm32f1xx.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\inc\stm32_assert.h
+
+1555481111 source:c:\working\git\ihouse\software\controller\f1\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+	"usart.h"
+	"mbport.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\inc\stm32f1xx_it.h
+
+1553499720 source:c:\working\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\source\templates\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_adc.c
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_crc.c
+	"stm32f1xx_ll_crc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_crc.h
+	"stm32f1xx.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dac.c
+	"stm32f1xx_ll_dac.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dac.h
+	"stm32f1xx.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dma.c
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_exti.c
+	"stm32f1xx_ll_exti.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_gpio.c
+	"stm32f1xx_ll_gpio.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_i2c.c
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_pwr.c
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_bus.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rcc.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rtc.c
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rtc.h
+	"stm32f1xx.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_spi.c
+	"stm32f1xx_ll_spi.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_spi.h
+	"stm32f1xx.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_tim.c
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_tim.h
+	"stm32f1xx.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usart.c
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_utils.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_system.h"
+	"stm32_assert.h"
+
+1555307893 source:c:\working\git\ihouse\software\controller\f1\startup\startup_stm32f10x_md.s
+
+1554961531 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\board.c
+	"main.h"
+	"board.h"
+
+1554964363 c:\working\git\ihouse\software\controller\f1\core\mcu_board\board.h
+	"bluepill.h"
+	"iic_eeprom.h"
+	"mcp23017.h"
+	"dc_motor.h"
+
+1554931863 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\board.c
+	"main.h"
+	"board.h"
+
+1558131357 d:\projects\ihouse\software\controller\f1\core\inc\main.h
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+	"bsp.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_adc.h
+	"stm32f1xx.h"
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\system_stm32f1xx.h
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f105xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f107xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_i2c.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rcc.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_bus.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_system.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_exti.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_cortex.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_utils.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_pwr.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dma.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usart.h
+	"stm32f1xx.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
+	"stm32f1xx.h"
+
+1558131357 d:\projects\ihouse\software\controller\f1\core\inc\stm32_assert.h
+
+1554930973 d:\projects\ihouse\software\controller\f1\core\mcu_board\board.h
+	"datetime.h"
+	"rtc.h"
+	"io.h"
+	"mcp23017.h"
+	"dc_motor.h"
+
+1558372789 source:d:\projects\ihouse\software\controller\f1\core\src\main.c
+	"main.h"
+	"bsp.h"
+	"mb.h"
+	"user_mb_app.h"
+
+1558389842 source:d:\projects\ihouse\software\controller\f1\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+	"usart.h"
+	"mbport.h"
+
+1558131356 d:\projects\ihouse\software\controller\f1\core\inc\stm32f1xx_it.h
+
+1553634088 source:d:\projects\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\source\templates\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_adc.c
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_crc.c
+	"stm32f1xx_ll_crc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_crc.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dac.c
+	"stm32f1xx_ll_dac.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dac.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dma.c
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_exti.c
+	"stm32f1xx_ll_exti.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_gpio.c
+	"stm32f1xx_ll_gpio.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_i2c.c
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_pwr.c
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_bus.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rcc.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rtc.c
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rtc.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_spi.c
+	"stm32f1xx_ll_spi.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_spi.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_tim.c
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_tim.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usart.c
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_utils.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_system.h"
+	"stm32_assert.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\startup\startup_stm32f10x_md.s
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_fsmc.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_sdmmc.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1555307893 c:\working\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1558130958 d:\projects\ihouse\software\controller\f1\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_fsmc.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_sdmmc.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\projects\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1552067772 d:\projects\ihouse\software\controller\f0\core\inc\main.h
+	"stm32f0xx_ll_adc.h"
+	"stm32f0xx_ll_dma.h"
+	"stm32f0xx_ll_i2c.h"
+	"stm32f0xx_ll_crs.h"
+	"stm32f0xx_ll_rcc.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32f0xx_ll_system.h"
+	"stm32f0xx_ll_exti.h"
+	"stm32f0xx_ll_cortex.h"
+	"stm32f0xx_ll_utils.h"
+	"stm32f0xx_ll_pwr.h"
+	"stm32f0xx_ll_rtc.h"
+	"stm32f0xx_ll_tim.h"
+	"stm32f0xx_ll_usart.h"
+	"stm32f0xx_ll_gpio.h"
+	"stm32_assert.h"
+
+1548711676 d:\projects\ihouse\software\controller\f0\core\inc\stm32_assert.h
+
+1556040792 source:d:\projects\ihouse\software\controller\f1\core\libs\mcp23017\mcp23017.c
+	"mcp23017.h"
+	"bsp_func.h"
+
+1556040792 d:\projects\ihouse\software\controller\f1\core\libs\mcp23017\mcp23017.h
+	"iic.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\iic.h
+	"defs.h"
+
+1558106480 d:\projects\ihouse\software\controller\f1\core\inc\defs.h
+	"common.h"
+	"stm32_assert.h"
+	"main.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1557786048 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\iic.c
+	"iic.h"
+
+1554547796 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\iic_f1.c
+	"iic.h"
+
+1557786048 source:d:\projects\ihouse\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.c
+	<stdlib.h>
+	<string.h>
+	"iic_eeprom.h"
+	"iic.h"
+
+1557786048 d:\projects\ihouse\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.h
+	<stdint.h>
+	<stdlib.h>
+
+1558106480 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\dc_motor.c
+	"dc_motor.h"
+	"mcp23017.h"
+	"io.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\mcu_board\dc_motor.h
+	"defs.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.c
+	<stdlib.h>
+	<string.h>
+	"iic_eeprom.h"
+	"iic.h"
+
+1555486432 c:\working\git\ihouse\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.h
+	<stdint.h>
+	<stdlib.h>
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\iic.h
+	"defs.h"
+
+1556012127 c:\working\git\ihouse\software\controller\f1\core\inc\defs.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	"stm32_assert.h"
+	"main.h"
+
+1556011444 source:c:\working\git\ihouse\software\controller\f1\core\libs\mcp23017\mcp23017.c
+	"mcp23017.h"
+	"bsp_func.h"
+
+1556011128 c:\working\git\ihouse\software\controller\f1\core\libs\mcp23017\mcp23017.h
+	"iic.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\mcu_board\dc_motor.h
+	"defs.h"
+
+1555483806 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\dc_motor.c
+	"dc_motor.h"
+	"mcp23017.h"
+	"io.h"
+
+1554703112 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\iic_f1.c
+	"iic.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1558106480 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\io.h
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\io.c
+	"defs.h"
+	"io.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\common\datetime.h
+
+1558390563 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\rtc.h
+	"stm32f1xx_ll_rtc.h"
+	"datetime.h"
+	"bkp.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\bkp.h
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\bkp.c
+	"defs.h"
+	"bkp.h"
+
+1558389852 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\rtc.c
+	"defs.h"
+	"rtc.h"
+
+1555486228 c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\bluepill.h
+	"defs.h"
+	"io.h"
+	"rtc.h"
+	"iic.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\common\datetime.h
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\rtc.h
+	"datetime.h"
+	"bkp.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\bkp.h
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\io.h
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\bkp.c
+	"defs.h"
+	"bkp.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\iic.c
+	"iic.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\io.c
+	"defs.h"
+	"io.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\rtc.c
+	"defs.h"
+	"rtc.h"
+
+1556017615 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\usart.c
+	"defs.h"
+	"usart.h"
+	"io.h"
+	"tb387.h"
+	"mbport.h"
+
+1556017627 c:\working\git\ihouse\software\controller\f1\core\mcu_board\drivers\usart.h
+	"defs.h"
+
+1556013179 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\bsp.c
+	"main.h"
+	"bsp.h"
+
+1556029970 c:\working\git\ihouse\software\controller\f1\core\mcu_board\bsp.h
+	"bsp_func.h"
+	"io.h"
+	"iic_eeprom.h"
+	"usart.h"
+	"rtc.h"
+	"mcp23017.h"
+	"dc_motor.h"
+	"tb387.h"
+
+1555998258 c:\working\git\ihouse\software\controller\f1\core\libs\tb387\tb387.h
+	"defs.h"
+	"usart.h"
+
+1556017572 source:c:\working\git\ihouse\software\controller\f1\core\libs\tb387\tb387.c
+	<stdio.h>
+	"tb387.h"
+	"bsp_func.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.c
+	<stdlib.h>
+	<string.h>
+	"iic_eeprom.h"
+	"iic.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.h
+	<stdint.h>
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\iic.h
+	"defs.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\inc\defs.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	"stm32_assert.h"
+	"main.h"
+
+1555059046 d:\alex\desktop\ihouse-master\software\controller\f1\core\inc\stm32_assert.h
+
+1555059046 d:\alex\desktop\ihouse-master\software\controller\f1\core\inc\main.h
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_adc.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\system_stm32f1xx.h
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f105xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f107xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1555059012 d:\alex\desktop\ihouse-master\software\controller\f1\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_fsmc.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_sdmmc.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_i2c.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rcc.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_bus.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_system.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_exti.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_cortex.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_utils.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_pwr.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dma.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rtc.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_tim.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usart.h
+	"stm32f1xx.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
+	"stm32f1xx.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\mcp23017\mcp23017.c
+	"mcp23017.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\mcp23017\mcp23017.h
+	"iic.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\bsp.c
+	"main.h"
+	"bsp.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\bsp.h
+	"bluepill.h"
+	"iic_eeprom.h"
+	"usart.h"
+	"mcp23017.h"
+	"dc_motor.h"
+	"tb387.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\bluepill.h
+	"defs.h"
+	"io.h"
+	"rtc.h"
+	"iic.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\io.h
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\rtc.h
+	"datetime.h"
+	"bkp.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\common\datetime.h
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\bkp.h
+
+1555265462 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\usart.h
+	"defs.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\dc_motor.h
+	"defs.h"
+
+1555269722 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\tb387\tb387.h
+	"defs.h"
+	"usart.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\dc_motor.c
+	"dc_motor.h"
+	"mcp23017.h"
+	"io.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\bkp.c
+	"defs.h"
+	"bkp.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\iic.c
+	"iic.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\io.c
+	"defs.h"
+	"io.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\rtc.c
+	"defs.h"
+	"rtc.h"
+
+1555269028 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\usart.c
+	"defs.h"
+	"usart.h"
+	"io.h"
+	"mbport.h"
+
+1555059192 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\src\main.c
+	"main.h"
+	"bsp.h"
+
+1555098299 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+	"usart.h"
+	"mbport.h"
+
+1555059046 d:\alex\desktop\ihouse-master\software\controller\f1\core\inc\stm32f1xx_it.h
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_adc.c
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_crc.c
+	"stm32f1xx_ll_crc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_crc.h
+	"stm32f1xx.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dac.c
+	"stm32f1xx_ll_dac.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dac.h
+	"stm32f1xx.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dma.c
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_exti.c
+	"stm32f1xx_ll_exti.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_gpio.c
+	"stm32f1xx_ll_gpio.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_i2c.c
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_pwr.c
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_bus.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rcc.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rtc.c
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_spi.c
+	"stm32f1xx_ll_spi.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1553503322 d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_spi.h
+	"stm32f1xx.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_tim.c
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usart.c
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503324 source:d:\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_utils.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_system.h"
+	"stm32_assert.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\startup\startup_stm32f10x_md.s
+
+1555271582 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\tb387\tb387.c
+	<string.h>
+	<stdio.h>
+	"tb387.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.c
+	<stdlib.h>
+	<string.h>
+	"iic_eeprom.h"
+	"iic.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.h
+	<stdint.h>
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\iic.h
+	"defs.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\inc\defs.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	"stm32_assert.h"
+	"main.h"
+
+1555062644 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\inc\stm32_assert.h
+
+1555062644 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\inc\main.h
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_adc.h
+	"stm32f1xx.h"
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\system_stm32f1xx.h
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f105xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503320 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f107xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1555062610 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_fsmc.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_sdmmc.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_i2c.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rcc.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_bus.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_system.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_exti.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_cortex.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_utils.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_pwr.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dma.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rtc.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_tim.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usart.h
+	"stm32f1xx.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
+	"stm32f1xx.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\mcp23017\mcp23017.c
+	"mcp23017.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\mcp23017\mcp23017.h
+	"iic.h"
+
+1555074574 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\tb387\tb387.c
+	<string.h>
+	<stdio.h>
+	"tb387.h"
+
+1555074345 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\tb387\tb387.h
+	"defs.h"
+	"usart.h"
+
+1555070970 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\usart.h
+	"defs.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\bsp.c
+	"main.h"
+	"bsp.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\bsp.h
+	"bluepill.h"
+	"iic_eeprom.h"
+	"usart.h"
+	"mcp23017.h"
+	"dc_motor.h"
+	"tb387.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\bluepill.h
+	"defs.h"
+	"io.h"
+	"rtc.h"
+	"iic.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\io.h
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\rtc.h
+	"datetime.h"
+	"bkp.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\common\datetime.h
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\bkp.h
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\dc_motor.h
+	"defs.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\dc_motor.c
+	"dc_motor.h"
+	"mcp23017.h"
+	"io.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\bkp.c
+	"defs.h"
+	"bkp.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\iic.c
+	"iic.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\io.c
+	"defs.h"
+	"io.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\rtc.c
+	"defs.h"
+	"rtc.h"
+
+1555070991 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\mcu_board\drivers\usart.c
+	"defs.h"
+	"usart.h"
+	"io.h"
+	"mbport.h"
+
+1555062791 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\src\main.c
+	"main.h"
+	"bsp.h"
+
+1555062881 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+	"usart.h"
+	"mbport.h"
+
+1555062644 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\inc\stm32f1xx_it.h
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_adc.c
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_crc.c
+	"stm32f1xx_ll_crc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_crc.h
+	"stm32f1xx.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dac.c
+	"stm32f1xx_ll_dac.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dac.h
+	"stm32f1xx.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dma.c
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_exti.c
+	"stm32f1xx_ll_exti.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_gpio.c
+	"stm32f1xx_ll_gpio.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_i2c.c
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_pwr.c
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_bus.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rcc.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rtc.c
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_spi.c
+	"stm32f1xx_ll_spi.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1553503321 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_spi.h
+	"stm32f1xx.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_tim.c
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usart.c
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1553503322 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_utils.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_system.h"
+	"stm32_assert.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\startup\startup_stm32f10x_md.s
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbascii.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\port.h
+	"defs.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mb.h
+	"port.h"
+	"mbport.h"
+	"mbproto.h"
+	"mbutils.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbport.h
+	"port.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbproto.h
+	"mb.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbutils.h
+	"mb.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbconfig.h
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.h
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbframe.h
+	"mb.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.h
+	"port.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfunccoils.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\user_mb_app.h
+	"mb.h"
+	"mbconfig.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdiag.c
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdisc.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncholding.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncinput.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncother.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbutils.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbproto.h"
+	"user_mb_app.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\mb.c
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbfunc.h"
+	"mbport.h"
+	"mbrtu.h"
+	"mbascii.h"
+	"mbtcp.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbfunc.h
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.h
+	"mb.h"
+
+1554996026 c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.h
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.c
+	"port.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbrtu.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbtcp.h"
+	"mbframe.h"
+	"mbport.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\port.c
+	"port.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\portevent.c
+	"mb.h"
+	"mbport.h"
+
+1554996026 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\portserial.c
+	"port.h"
+	"mb.h"
+	"usart.h"
+	"user_mb_app.h"
+
+1555062687 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\porttimer.c
+	"port.h"
+	"mb.h"
+	"mbport.h"
+
+1555062749 source:c:\users\alexanderponomarchuk\onedrive - salda, uab\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\user_mb_app.c
+	"user_mb_app.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbascii.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\port.h
+	"defs.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mb.h
+	"port.h"
+	"mbport.h"
+	"mbproto.h"
+	"mbutils.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbport.h
+	"port.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbproto.h
+	"mb.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbutils.h
+	"mb.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbconfig.h
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.h
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbframe.h
+	"mb.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.h
+	"port.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfunccoils.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\user_mb_app.h
+	"mb.h"
+	"mbconfig.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdiag.c
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdisc.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncholding.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncinput.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncother.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\functions\mbutils.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbproto.h"
+	"user_mb_app.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\mb.c
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbfunc.h"
+	"mbport.h"
+	"mbrtu.h"
+	"mbascii.h"
+	"mbtcp.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\include\mbfunc.h
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.h
+	"mb.h"
+
+1554992426 d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.h
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.c
+	"port.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbrtu.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbtcp.h"
+	"mbframe.h"
+	"mbport.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\port.c
+	"port.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\portevent.c
+	"mb.h"
+	"mbport.h"
+
+1554992426 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\portserial.c
+	"port.h"
+	"mb.h"
+	"usart.h"
+	"user_mb_app.h"
+
+1555059088 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\port\porttimer.c
+	"port.h"
+	"mb.h"
+	"mbport.h"
+
+1555059150 source:d:\alex\desktop\ihouse-master\software\controller\f1\core\libs\freemodbus\user_mb_app.c
+	"user_mb_app.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbascii.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\port\port.h
+	"defs.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mb.h
+	"port.h"
+	"mbport.h"
+	"mbproto.h"
+	"mbutils.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbport.h
+	"port.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbproto.h
+	"mb.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbutils.h
+	"mb.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbconfig.h
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.h
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbframe.h
+	"mb.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.h
+	"port.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfunccoils.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\user_mb_app.h
+	"mb.h"
+	"mbconfig.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdiag.c
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdisc.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncholding.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncinput.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncother.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbutils.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbproto.h"
+	"user_mb_app.h"
+
+1556291557 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\mb.c
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbfunc.h"
+	"mbport.h"
+	"mbrtu.h"
+	"mbascii.h"
+	"mbtcp.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbfunc.h
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.h
+	"mb.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.h
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.c
+	"port.h"
+
+1556291557 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbrtu.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbtcp.h"
+	"mbframe.h"
+	"mbport.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\port\port.c
+	"port.h"
+
+1554992426 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\port\portevent.c
+	"mb.h"
+	"mbport.h"
+
+1556040792 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\port\portserial.c
+	"port.h"
+	"mb.h"
+	"usart.h"
+	"user_mb_app.h"
+
+1556481495 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\usart.h
+	"stdio.h"
+	"stm32f1xx_ll_usart.h"
+
+1555059088 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\port\porttimer.c
+	"port.h"
+	"mb.h"
+	"mbport.h"
+
+1555059150 source:d:\projects\ihouse\software\controller\f1\core\libs\freemodbus\user_mb_app.c
+	"user_mb_app.h"
+
+1556310636 source:d:\projects\ihouse\software\controller\f1\core\libs\tb387\tb387.c
+	"tb387.h"
+	"bsp_func.h"
+
+1556295524 d:\projects\ihouse\software\controller\f1\core\libs\tb387\tb387.h
+	<stdint.h>
+
+1558110986 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\bsp.c
+	"bsp.h"
+
+1558106480 d:\projects\ihouse\software\controller\f1\core\mcu_board\bsp.h
+	"defs.h"
+	"bsp_func.h"
+	"io.h"
+	"iic_eeprom.h"
+	"usart.h"
+	"rtc.h"
+	"mcp23017.h"
+	"dc_motor.h"
+	"tb387.h"
+	"nextion.h"
+	"ds1307.h"
+	"ds18b20.h"
+
+1554992426 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\bluepill.h
+	"defs.h"
+	"io.h"
+	"rtc.h"
+	"iic.h"
+
+1556481462 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\usart.c
+	"defs.h"
+	"usart.h"
+	"io.h"
+	"tb387.h"
+	"mbport.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbascii.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\port\port.h
+	"defs.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mb.h
+	"port.h"
+	"mbport.h"
+	"mbproto.h"
+	"mbutils.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbport.h
+	"port.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbproto.h
+	"mb.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbutils.h
+	"mb.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbconfig.h
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.h
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbframe.h
+	"mb.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.h
+	"port.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfunccoils.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\user_mb_app.h
+	"mb.h"
+	"mbconfig.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdiag.c
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdisc.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncholding.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncinput.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncother.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbutils.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbproto.h"
+	"user_mb_app.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\mb.c
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbfunc.h"
+	"mbport.h"
+	"mbrtu.h"
+	"mbascii.h"
+	"mbtcp.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbfunc.h
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.h
+	"mb.h"
+
+1555307892 c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.h
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.c
+	"port.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbrtu.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbtcp.h"
+	"mbframe.h"
+	"mbport.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\port\port.c
+	"port.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\port\portevent.c
+	"mb.h"
+	"mbport.h"
+
+1556013097 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\port\portserial.c
+	"port.h"
+	"mb.h"
+	"usart.h"
+	"user_mb_app.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\port\porttimer.c
+	"port.h"
+	"mb.h"
+	"mbport.h"
+
+1555307892 source:c:\working\git\ihouse\software\controller\f1\core\libs\freemodbus\user_mb_app.c
+	"user_mb_app.h"
+
+1555584739 c:\working\git\ihouse\software\controller\f1\core\mcu_board\bsp_func.h
+
+1555584727 source:c:\working\git\ihouse\software\controller\f1\core\mcu_board\bsp_func.c
+	"defs.h"
+	"bsp_func.h"
+
+1556295465 d:\projects\ihouse\software\controller\f1\core\mcu_board\bsp_func.h
+	"defs.h"
+
+1555613586 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\bsp_func.c
+	"defs.h"
+	"bsp_func.h"
+
+1556486692 source:d:\projects\ihouse\software\controller\f1\core\libs\nextion_hmi\nextion.c
+	"nextion.h"
+
+1556480374 d:\projects\ihouse\software\controller\f1\core\libs\nextion_hmi\nextion.h
+	"bsp.h"
+
+1558106480 d:\projects\ihouse\software\controller\f1\core\libs\ds1307\ds1307.h
+	"datetime.h"
+	"iic.h"
+
+1558106480 source:d:\projects\ihouse\software\controller\f1\core\libs\ds1307\ds1307.c
+	"defs.h"
+	"ds1307.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbascii.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\port\port.h
+	"defs.h"
+
+1558000762 c:\work\git\ihouse\software\controller\f1\core\inc\defs.h
+	"common.h"
+	"stm32_assert.h"
+	"main.h"
+
+1558103384 c:\work\git\ihouse\software\controller\f1\core\inc\stm32_assert.h
+
+1558103385 c:\work\git\ihouse\software\controller\f1\core\inc\main.h
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+	"bsp.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_adc.h
+	"stm32f1xx.h"
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\system_stm32f1xx.h
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f102xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f105xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834125 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\device\st\stm32f1xx\include\stm32f107xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_fsmc.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_sdmmc.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_i2c.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rcc.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_bus.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_system.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_exti.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_cortex.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_utils.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_pwr.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dma.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rtc.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_tim.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usart.h
+	"stm32f1xx.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
+	"stm32f1xx.h"
+
+1557999780 c:\work\git\ihouse\software\controller\f1\core\mcu_board\bsp.h
+	"defs.h"
+	"bsp_func.h"
+	"io.h"
+	"iic_eeprom.h"
+	"usart.h"
+	"rtc.h"
+	"mcp23017.h"
+	"dc_motor.h"
+	"tb387.h"
+	"nextion.h"
+	"ds1307.h"
+	"ds18b20.h"
+
+1557727147 c:\work\git\ihouse\software\controller\f1\core\mcu_board\bsp_func.h
+	"defs.h"
+
+1558011129 c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\io.h
+
+1557752090 c:\work\git\ihouse\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.h
+	<stdint.h>
+	<stdlib.h>
+
+1557727147 c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\usart.h
+	"stdio.h"
+	"stm32f1xx_ll_usart.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\rtc.h
+	"datetime.h"
+	"bkp.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\common\datetime.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\bkp.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\mcp23017\mcp23017.h
+	"iic.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\iic.h
+	"defs.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\mcu_board\dc_motor.h
+	"defs.h"
+
+1557727147 c:\work\git\ihouse\software\controller\f1\core\libs\tb387\tb387.h
+	<stdint.h>
+
+1557727147 c:\work\git\ihouse\software\controller\f1\core\libs\nextion_hmi\nextion.h
+	"bsp.h"
+
+1557998903 c:\work\git\ihouse\software\controller\f1\core\libs\ds1307\ds1307.h
+	"datetime.h"
+	"iic.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mb.h
+	"port.h"
+	"mbport.h"
+	"mbproto.h"
+	"mbutils.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbport.h
+	"port.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbproto.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbutils.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbconfig.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\ascii\mbascii.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbframe.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.h
+	"port.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfunccoils.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\user_mb_app.h
+	"mb.h"
+	"mbconfig.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdiag.c
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncdisc.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncholding.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncinput.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbfuncother.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\functions\mbutils.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbproto.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\mb.c
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbfunc.h"
+	"mbport.h"
+	"mbrtu.h"
+	"mbascii.h"
+	"mbtcp.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\include\mbfunc.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.h
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbcrc.c
+	"port.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\rtu\mbrtu.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbrtu.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\modbus\tcp\mbtcp.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbtcp.h"
+	"mbframe.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\port\port.c
+	"port.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\port\portevent.c
+	"mb.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\port\portserial.c
+	"port.h"
+	"mb.h"
+	"usart.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\port\porttimer.c
+	"port.h"
+	"mb.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\freemodbus\user_mb_app.c
+	"user_mb_app.h"
+
+1557752090 source:c:\work\git\ihouse\software\controller\f1\core\libs\iic_eeprom\iic_eeprom.c
+	<stdlib.h>
+	<string.h>
+	"iic_eeprom.h"
+	"iic.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\libs\mcp23017\mcp23017.c
+	"mcp23017.h"
+	"bsp_func.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\bsp_func.c
+	"defs.h"
+	"bsp_func.h"
+
+1558010692 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\dc_motor.c
+	"dc_motor.h"
+	"mcp23017.h"
+	"io.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\bkp.c
+	"defs.h"
+	"bkp.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\io.c
+	"defs.h"
+	"io.h"
+
+1558017416 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\rtc.c
+	"defs.h"
+	"rtc.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_adc.c
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_crc.c
+	"stm32f1xx_ll_crc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_crc.h
+	"stm32f1xx.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dac.c
+	"stm32f1xx_ll_dac.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dac.h
+	"stm32f1xx.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dma.c
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_exti.c
+	"stm32f1xx_ll_exti.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_gpio.c
+	"stm32f1xx_ll_gpio.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_pwr.c
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_bus.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rcc.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rtc.c
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_spi.c
+	"stm32f1xx_ll_spi.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557834146 c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_spi.h
+	"stm32f1xx.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_tim.c
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usart.c
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_utils.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_system.h"
+	"stm32_assert.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1\startup\startup_stm32f10x_md.s
+
+1557999853 source:c:\work\git\ihouse\software\controller\f1\core\libs\ds1307\ds1307.c
+	"defs.h"
+	"ds1307.h"
+
+1557727147 source:c:\work\git\ihouse\software\controller\f1\core\libs\nextion_hmi\nextion.c
+	"nextion.h"
+
+1557727147 source:c:\work\git\ihouse\software\controller\f1\core\libs\tb387\tb387.c
+	"tb387.h"
+	"bsp_func.h"
+
+1558011261 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\bsp.c
+	"bsp.h"
+
+1557751762 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\iic.c
+	"iic.h"
+
+1557727147 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\usart.c
+	"defs.h"
+	"usart.h"
+	"io.h"
+	"tb387.h"
+	"mbport.h"
+
+1558103385 source:c:\work\git\ihouse\software\controller\f1\core\src\main.c
+	"main.h"
+	"bsp.h"
+	"mb.h"
+	"user_mb_app.h"
+
+1558103394 source:c:\work\git\ihouse\software\controller\f1\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+	"usart.h"
+	"mbport.h"
+
+1558103384 c:\work\git\ihouse\software\controller\f1\core\inc\stm32f1xx_it.h
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_i2c.c
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557997186 source:c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\one_wire.c
+	"defs.h"
+	"one_wire.h"
+
+1557997186 c:\work\git\ihouse\software\controller\f1\core\mcu_board\drivers\one_wire.h
+	"stm32f1xx_ll_gpio.h"
+
+1557998979 source:c:\work\git\ihouse\software\controller\f1\core\libs\ds18b20\ds18b20.c
+	"defs.h"
+	"one_wire.h"
+	"ds18b20.h"
+
+1557998979 c:\work\git\ihouse\software\controller\f1\core\libs\ds18b20\ds18b20.h
+
+1558106480 d:\projects\ihouse\software\controller\f1\core\libs\ds18b20\ds18b20.h
+
+1558106480 source:d:\projects\ihouse\software\controller\f1\core\libs\ds18b20\ds18b20.c
+	"defs.h"
+	"one_wire.h"
+	"ds18b20.h"
+
+1558106480 d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\one_wire.h
+	"stm32f1xx_ll_gpio.h"
+
+1558106480 source:d:\projects\ihouse\software\controller\f1\core\mcu_board\drivers\one_wire.c
+	"defs.h"
+	"one_wire.h"
+
+1558000767 c:\work\git\ihouse\software\controller\f1\core\inc\common.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1558106480 d:\projects\ihouse\software\controller\f1\core\inc\common.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1557999853 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\ds1307\ds1307.c
+	"defs.h"
+	"ds1307.h"
+
+1558000762 c:\work\git\ihouse\software\controller\f1 - copy\core\inc\defs.h
+	"common.h"
+	"stm32_assert.h"
+	"main.h"
+
+1558000767 c:\work\git\ihouse\software\controller\f1 - copy\core\inc\common.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1558103384 c:\work\git\ihouse\software\controller\f1 - copy\core\inc\stm32_assert.h
+
+1558332216 c:\work\git\ihouse\software\controller\f1 - copy\core\inc\main.h
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+	"bsp.h"
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\include\core_cm3.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\include\core_cminstr.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\include\cmsis_armcc.h
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\include\cmsis_armcc_v6.h
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\include\cmsis_gcc.h
+
+1557834145 c:\work\git\ihouse\software\controller\f1\drivers\cmsis\include\core_cmfunc.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1558332216 c:\work\git\ihouse\software\controller\f1 - copy\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1557999780 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\bsp.h
+	"defs.h"
+	"bsp_func.h"
+	"io.h"
+	"iic_eeprom.h"
+	"usart.h"
+	"rtc.h"
+	"mcp23017.h"
+	"dc_motor.h"
+	"tb387.h"
+	"nextion.h"
+	"ds1307.h"
+	"ds18b20.h"
+
+1557727147 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\bsp_func.h
+	"defs.h"
+
+1558011129 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\io.h
+
+1557752090 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\iic_eeprom\iic_eeprom.h
+	<stdint.h>
+	<stdlib.h>
+
+1557727147 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\usart.h
+	"stdio.h"
+	"stm32f1xx_ll_usart.h"
+
+1558418587 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\rtc.h
+	"stm32f1xx_ll_rtc.h"
+	"datetime.h"
+	"bkp.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\common\datetime.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\bkp.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\mcp23017\mcp23017.h
+	"iic.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\iic.h
+	"defs.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\dc_motor.h
+	"defs.h"
+
+1557727147 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\tb387\tb387.h
+	<stdint.h>
+
+1557727147 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\nextion_hmi\nextion.h
+	"bsp.h"
+
+1557998903 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\ds1307\ds1307.h
+	"datetime.h"
+	"iic.h"
+
+1557998979 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\ds18b20\ds18b20.h
+
+1557998979 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\ds18b20\ds18b20.c
+	"defs.h"
+	"one_wire.h"
+	"ds18b20.h"
+
+1557997186 c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\one_wire.h
+	"stm32f1xx_ll_gpio.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\ascii\mbascii.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbascii.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\port\port.h
+	"defs.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\include\mb.h
+	"port.h"
+	"mbport.h"
+	"mbproto.h"
+	"mbutils.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\include\mbport.h
+	"port.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\include\mbproto.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\include\mbutils.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\include\mbconfig.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\ascii\mbascii.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\include\mbframe.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\rtu\mbcrc.h
+	"port.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\functions\mbfunccoils.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\user_mb_app.h
+	"mb.h"
+	"mbconfig.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\functions\mbfuncdiag.c
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\functions\mbfuncdisc.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\functions\mbfuncholding.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\functions\mbfuncinput.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\functions\mbfuncother.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbconfig.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\functions\mbutils.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbproto.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\mb.c
+	<stdlib.h>
+	<string.h>
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbframe.h"
+	"mbproto.h"
+	"mbfunc.h"
+	"mbport.h"
+	"mbrtu.h"
+	"mbascii.h"
+	"mbtcp.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\include\mbfunc.h
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\rtu\mbrtu.h
+	"mb.h"
+
+1556787096 c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\tcp\mbtcp.h
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\rtu\mbcrc.c
+	"port.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\rtu\mbrtu.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbrtu.h"
+	"mbframe.h"
+	"mbcrc.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\modbus\tcp\mbtcp.c
+	"stdlib.h"
+	"string.h"
+	"port.h"
+	"mb.h"
+	"mbconfig.h"
+	"mbtcp.h"
+	"mbframe.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\port\port.c
+	"port.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\port\portevent.c
+	"mb.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\port\portserial.c
+	"port.h"
+	"mb.h"
+	"usart.h"
+	"user_mb_app.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\port\porttimer.c
+	"port.h"
+	"mb.h"
+	"mbport.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\freemodbus\user_mb_app.c
+	"user_mb_app.h"
+
+1557752090 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\iic_eeprom\iic_eeprom.c
+	<stdlib.h>
+	<string.h>
+	"iic_eeprom.h"
+	"iic.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\mcp23017\mcp23017.c
+	"mcp23017.h"
+	"bsp_func.h"
+
+1557727147 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\nextion_hmi\nextion.c
+	"nextion.h"
+
+1557727147 source:c:\work\git\ihouse\software\controller\f1 - copy\core\libs\tb387\tb387.c
+	"tb387.h"
+	"bsp_func.h"
+
+1558332216 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\bsp.c
+	"bsp.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\bsp_func.c
+	"defs.h"
+	"bsp_func.h"
+
+1558010692 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\dc_motor.c
+	"dc_motor.h"
+	"mcp23017.h"
+	"io.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\bkp.c
+	"defs.h"
+	"bkp.h"
+
+1557751762 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\iic.c
+	"iic.h"
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\io.c
+	"defs.h"
+	"io.h"
+
+1557997186 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\one_wire.c
+	"defs.h"
+	"one_wire.h"
+
+1558418587 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\rtc.c
+	"defs.h"
+	"rtc.h"
+
+1557727147 source:c:\work\git\ihouse\software\controller\f1 - copy\core\mcu_board\drivers\usart.c
+	"defs.h"
+	"usart.h"
+	"io.h"
+	"tb387.h"
+	"mbport.h"
+
+1558418587 source:c:\work\git\ihouse\software\controller\f1 - copy\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+	"usart.h"
+	"mbport.h"
+
+1558332216 c:\work\git\ihouse\software\controller\f1 - copy\core\inc\stm32f1xx_it.h
+
+1556787096 source:c:\work\git\ihouse\software\controller\f1 - copy\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1558598249 source:c:\work\git\ihouse\software\controller\f1 - copy\core\src\main.c
+	"main.h"
+	"bsp.h"
+	"mb.h"
+	"user_mb_app.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_fsmc.c
+	"stm32f1xx_hal.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_sdmmc.c
+	"stm32f1xx_hal.h"
+
+1557834146 source:c:\work\git\ihouse\software\controller\f1\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usb.c
+	"stm32f1xx_hal.h"
+
+1569781420 source:d:\alex\desktop\bldc\software\f103\core\src\main.c
+	"main.h"
+	"bldc.h"
+
+1569781491 d:\alex\desktop\bldc\software\f103\core\inc\main.h
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rcc.h
+	"stm32f1xx.h"
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\system_stm32f1xx.h
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f102x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f102xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f105xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611017 d:\alex\desktop\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f107xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1569780756 d:\alex\desktop\bldc\software\f103\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stdio.h>
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_fsmc.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_sdmmc.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_bus.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_system.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_exti.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_cortex.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_utils.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_pwr.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dma.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_tim.h
+	"stm32f1xx.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
+	"stm32f1xx.h"
+
+1569781087 d:\alex\desktop\bldc\software\f103\core\inc\stm32_assert.h
+
+1558629296 source:d:\alex\desktop\bldc\software\f103\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_adc.c
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_adc.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_crc.c
+	"stm32f1xx_ll_crc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_crc.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dac.c
+	"stm32f1xx_ll_dac.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dac.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dma.c
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_exti.c
+	"stm32f1xx_ll_exti.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_fsmc.c
+	"stm32f1xx_hal.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_gpio.c
+	"stm32f1xx_ll_gpio.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_i2c.c
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_i2c.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_pwr.c
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_bus.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rcc.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rtc.c
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rtc.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_sdmmc.c
+	"stm32f1xx_hal.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_spi.c
+	"stm32f1xx_ll_spi.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_spi.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_tim.c
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usart.c
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1557611018 d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usart.h
+	"stm32f1xx.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usb.c
+	"stm32f1xx_hal.h"
+
+1557611018 source:d:\alex\desktop\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_utils.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_system.h"
+	"stm32_assert.h"
+
+1554992426 source:d:\alex\desktop\bldc\software\f103\startup\startup_stm32f10x_md.s
+
+1569781087 source:d:\alex\desktop\bldc\software\f103\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+
+1569781087 d:\alex\desktop\bldc\software\f103\core\inc\stm32f1xx_it.h
+
+1569781420 source:d:\alex\desktop\bldc\software\f103\core\src\bldc.c
+	"main.h"
+	"bldc.h"
+
+1569781491 d:\alex\desktop\bldc\software\f103\core\inc\bldc.h
+
