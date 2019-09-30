@@ -4475,3 +4475,446 @@
 
 1569781491 d:\alex\desktop\bldc\software\f103\core\inc\bldc.h
 
+1569841555 source:c:\work\git\bldc\software\f103\core\src\main.c
+	"main.h"
+	"bldc.h"
+
+1569842681 c:\work\git\bldc\software\f103\core\inc\main.h
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_system.h"
+	"stm32f1xx_ll_exti.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx.h"
+	"stm32f1xx_ll_gpio.h"
+	"stm32_assert.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rcc.h
+	"stm32f1xx.h"
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f1xx.h
+	"stm32f100xb.h"
+	"stm32f100xe.h"
+	"stm32f101x6.h"
+	"stm32f101xb.h"
+	"stm32f101xe.h"
+	"stm32f101xg.h"
+	"stm32f102x6.h"
+	"stm32f102xb.h"
+	"stm32f103x6.h"
+	"stm32f103xb.h"
+	"stm32f103xe.h"
+	"stm32f103xg.h"
+	"stm32f105xc.h"
+	"stm32f107xc.h"
+	"stm32f1xx_hal.h"
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\system_stm32f1xx.h
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f100xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f101xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f102x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f102xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103x6.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xb.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xe.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f103xg.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f105xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571576 c:\work\git\bldc\software\f103\drivers\cmsis\device\st\stm32f1xx\include\stm32f107xc.h
+	"core_cm3.h"
+	"system_stm32f1xx.h"
+	<stdint.h>
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
+	"stm32f1xx_hal_conf.h"
+
+1569823631 c:\work\git\bldc\software\f103\core\inc\stm32f1xx_hal_conf.h
+	"stm32f1xx_hal_rcc.h"
+	"stm32f1xx_hal_exti.h"
+	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_dma.h"
+	"stm32f1xx_hal_eth.h"
+	"stm32f1xx_hal_can.h"
+	"stm32f1xx_hal_cec.h"
+	"stm32f1xx_hal_cortex.h"
+	"stm32f1xx_hal_adc.h"
+	"stm32f1xx_hal_crc.h"
+	"stm32f1xx_hal_dac.h"
+	"stm32f1xx_hal_flash.h"
+	"stm32f1xx_hal_sram.h"
+	"stm32f1xx_hal_nor.h"
+	"stm32f1xx_hal_i2c.h"
+	"stm32f1xx_hal_i2s.h"
+	"stm32f1xx_hal_iwdg.h"
+	"stm32f1xx_hal_pwr.h"
+	"stm32f1xx_hal_rtc.h"
+	"stm32f1xx_hal_pccard.h"
+	"stm32f1xx_hal_sd.h"
+	"stm32f1xx_hal_mmc.h"
+	"stm32f1xx_hal_nand.h"
+	"stm32f1xx_hal_spi.h"
+	"stm32f1xx_hal_tim.h"
+	"stm32f1xx_hal_uart.h"
+	"stm32f1xx_hal_usart.h"
+	"stm32f1xx_hal_irda.h"
+	"stm32f1xx_hal_smartcard.h"
+	"stm32f1xx_hal_wwdg.h"
+	"stm32f1xx_hal_pcd.h"
+	"stm32f1xx_hal_hcd.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rcc_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_def.h
+	"stm32f1xx.h"
+	"Legacy/stm32_hal_legacy.h"
+	<stddef.h>
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\legacy\stm32_hal_legacy.h
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_gpio_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_gpio_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dma_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dma_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_eth.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_can.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cec.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_cortex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_adc_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_adc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_crc.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_dac_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_dac_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_flash_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_flash_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sram.h
+	"stm32f1xx_ll_fsmc.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_fsmc.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nor.h
+	"stm32f1xx_ll_fsmc.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2c.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_i2s.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_iwdg.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pwr.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_rtc_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rtc_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pccard.h
+	"stm32f1xx_ll_fsmc.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_sd.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_sdmmc.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_mmc.h
+	"stm32f1xx_ll_sdmmc.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_nand.h
+	"stm32f1xx_ll_fsmc.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_spi.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_tim_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_tim_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_uart.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_usart.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_irda.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_smartcard.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_wwdg.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd.h
+	"stm32f1xx_ll_usb.h"
+	"stm32f1xx_hal_pcd_ex.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usb.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_pcd_ex.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_hcd.h
+	"stm32f1xx_ll_usb.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_bus.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_system.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_exti.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_cortex.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_utils.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_pwr.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dma.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_tim.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_usart.h
+	"stm32f1xx.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
+	"stm32f1xx.h"
+
+1569842680 c:\work\git\bldc\software\f103\core\inc\stm32_assert.h
+
+1569823631 c:\work\git\bldc\software\f103\core\inc\bldc.h
+
+1569841555 source:c:\work\git\bldc\software\f103\core\src\stm32f1xx_it.c
+	"main.h"
+	"stm32f1xx_it.h"
+
+1569841555 c:\work\git\bldc\software\f103\core\inc\stm32f1xx_it.h
+
+1569823631 source:c:\work\git\bldc\software\f103\core\src\system_stm32f1xx.c
+	"stm32f1xx.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_adc.c
+	"stm32f1xx_ll_adc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_adc.h
+	"stm32f1xx.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_crc.c
+	"stm32f1xx_ll_crc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_crc.h
+	"stm32f1xx.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dac.c
+	"stm32f1xx_ll_dac.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_dac.h
+	"stm32f1xx.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_dma.c
+	"stm32f1xx_ll_dma.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_exti.c
+	"stm32f1xx_ll_exti.h"
+	"stm32_assert.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_fsmc.c
+	"stm32f1xx_hal.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_gpio.c
+	"stm32f1xx_ll_gpio.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_i2c.c
+	"stm32f1xx_ll_i2c.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_i2c.h
+	"stm32f1xx.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_pwr.c
+	"stm32f1xx_ll_pwr.h"
+	"stm32f1xx_ll_bus.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rcc.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_rtc.c
+	"stm32f1xx_ll_rtc.h"
+	"stm32f1xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_rtc.h
+	"stm32f1xx.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_sdmmc.c
+	"stm32f1xx_hal.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_spi.c
+	"stm32f1xx_ll_spi.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_spi.h
+	"stm32f1xx.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_tim.c
+	"stm32f1xx_ll_tim.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usart.c
+	"stm32f1xx_ll_usart.h"
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_bus.h"
+	"stm32_assert.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_usb.c
+	"stm32f1xx_hal.h"
+
+1569571626 source:c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\src\stm32f1xx_ll_utils.c
+	"stm32f1xx_ll_rcc.h"
+	"stm32f1xx_ll_utils.h"
+	"stm32f1xx_ll_system.h"
+	"stm32_assert.h"
+
+1569823631 source:c:\work\git\bldc\software\f103\startup\startup_stm32f10x_md.s
+
+1569841591 source:c:\work\git\bldc\software\f103\core\src\bldc.c
+	"main.h"
+	"bldc.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_exti.h
+	"stm32f1xx_hal_def.h"
+

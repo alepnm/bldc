@@ -7,7 +7,6 @@ uint8_t BLDC_SystemInit(void){
     /* SysTick start */
     SysTick_Config(SystemCoreClock/1000);
 
-
     /* TIM1 - Output timer */
     LL_TIM_EnableIT_COM(TIM1);
     LL_TIM_EnableIT_BRK(TIM1);
