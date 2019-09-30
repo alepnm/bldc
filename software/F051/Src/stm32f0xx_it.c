@@ -219,27 +219,27 @@ static __INLINE void BLDCMotorPrepareCommutation(void)
   uint8_t BL3 = BLDC_BRIDGE_STATE_VORWARD[hallpos][5];
 
 
-  if (BH1) {
-
-    TIM_SelectOCxM(TIM1, TIM_Channel_1, TIM_OCMode_PWM1);
-    TIM_CCxCmd(TIM1, TIM_Channel_1, TIM_CCx_Enable);
-    TIM_CCxNCmd(TIM1, TIM_Channel_1, TIM_CCxN_Enable);
-
-  } else {
-
-    TIM_CCxCmd(TIM1, TIM_Channel_1, TIM_CCx_Disable);
-
-    if (BL1){
-
-      TIM_SelectOCxM(TIM1, TIM_Channel_1, TIM_ForcedAction_Active);
-      TIM_CCxNCmd(TIM1, TIM_Channel_1, TIM_CCxN_Enable);
-
-    } else {
-
-      TIM_CCxNCmd(TIM1, TIM_Channel_1, TIM_CCxN_Disable);
-    }
-
-  }
+//  if (BH1) {
+//
+//    TIM_SelectOCxM(TIM1, TIM_Channel_1, TIM_OCMode_PWM1);
+//    TIM_CCxCmd(TIM1, TIM_Channel_1, TIM_CCx_Enable);
+//    TIM_CCxNCmd(TIM1, TIM_Channel_1, TIM_CCxN_Enable);
+//
+//  } else {
+//
+//    TIM_CCxCmd(TIM1, TIM_Channel_1, TIM_CCx_Disable);
+//
+//    if (BL1){
+//
+//      TIM_SelectOCxM(TIM1, TIM_Channel_1, TIM_ForcedAction_Active);
+//      TIM_CCxNCmd(TIM1, TIM_Channel_1, TIM_CCxN_Enable);
+//
+//    } else {
+//
+//      TIM_CCxNCmd(TIM1, TIM_Channel_1, TIM_CCxN_Disable);
+//    }
+//
+//  }
 
 
 

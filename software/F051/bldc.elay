@@ -31,14 +31,14 @@
 			<Cursor1 position="1060" topLine="204" />
 		</Cursor>
 	</File>
-	<File name="Src\main.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Src\main.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1426" topLine="18" />
 		</Cursor>
 	</File>
-	<File name="Src\stm32f0xx_it.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Src\stm32f0xx_it.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5905" topLine="194" />
+			<Cursor1 position="3446" topLine="143" />
 		</Cursor>
 	</File>
 	<File name="Src\system_stm32f0xx.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -46,7 +46,7 @@
 			<Cursor1 position="3420" topLine="201" />
 		</Cursor>
 	</File>
-	<File name="Startup\startup_stm32f0xx.S" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Startup\startup_stm32f0xx.S" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="6002" topLine="102" />
 		</Cursor>
