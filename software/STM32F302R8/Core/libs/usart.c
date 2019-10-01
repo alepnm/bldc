@@ -14,7 +14,8 @@ void USART_PortsInit(void){
     Ports[SECONDARY_PORT].Config.StopBits = STOPBITS_1;
     Ports[SECONDARY_PORT].Config.DataBits = 8;
 
-    Ports[SECONDARY_PORT].Registers.ePortState = USART_STATE_IDLE;
+    Ports[SECONDARY_PORT].Registers.RxState = 0;
+    Ports[SECONDARY_PORT].Registers.TxState = 0;
     Ports[SECONDARY_PORT].Registers.NewMessageReceivedFlag = 0;
 
     USART_Config(SECONDARY_PORT);
@@ -55,45 +56,46 @@ void USART_Config(uint8_t ucPORT) {
         LL_USART_Enable(Ports[ucPORT].handle);
     } while( !LL_USART_IsEnabled(Ports[ucPORT].handle) );
 
+    LL_USART_RequestRxDataFlush(Ports[ucPORT].handle);  // numetam RXIF flaga
+
+    LL_USART_ClearFlag_TC(Ports[ucPORT].handle);
+    LL_USART_EnableIT_TC(Ports[ucPORT].handle);
+
     LL_USART_EnableIT_RXNE(Ports[ucPORT].handle);
-    LL_USART_DisableIT_TC(Ports[ucPORT].handle);
+    LL_USART_DisableIT_TXE(Ports[ucPORT].handle);
 }
 
 
 /*  */
-void USART_Send( uint8_t ucPORT, void* data, size_t len ) {
+void USART_Send( uint8_t ucPORT, char* data, uint8_t len ) {
 
-    while(len--) {
-        while(!LL_USART_IsActiveFlag_TC(Ports[ucPORT].handle));
-        LL_USART_TransmitData8(Ports[ucPORT].handle, *((uint8_t*)data++));
-    }
+    Ports[ucPORT].Registers.TxDataLenght = len;
+    Ports[ucPORT].Registers.pTxBuffer = data;
 
-    Ports[ucPORT].Registers.ePortState = USART_STATE_ANSWER_WAITING;
-    Ports[ucPORT].Registers.PortTimer = 100;
+    Ports[ucPORT].Registers.TxState = 1;
+
+    LL_USART_EnableIT_TXE(Ports[ucPORT].handle);
 }
 
 
 /*  */
 void USART_SendByte(uint8_t ucPORT, char data) {
-    LL_USART_TransmitData8(Ports[ucPORT].handle, data);
-
-    Ports[ucPORT].Registers.ePortState = USART_STATE_ANSWER_WAITING;
-    Ports[ucPORT].Registers.PortTimer = 100;
+    USART_Send( ucPORT, &data, 1 );
 }
 
 /*  */
 void USART_SendString( uint8_t ucPORT, const char* str ) {
 
-    uint8_t i = 0;
+    uint8_t len = 0;
+    char* data = (char*)str;
 
-    while( *(str+i) ) {
-        while(!LL_USART_IsActiveFlag_TC(Ports[ucPORT].handle));
-        LL_USART_TransmitData8(Ports[ucPORT].handle, *(str+i));
-        i++;
+    while(1){
+
+        if(*(str++) == 0) break;
+        len++;
     }
 
-    Ports[ucPORT].Registers.ePortState = USART_STATE_ANSWER_WAITING;
-    Ports[ucPORT].Registers.PortTimer = 100;
+    USART_Send( ucPORT, data, len );
 }
 
 
@@ -112,20 +114,9 @@ void USART_ClearRxBuffer(uint8_t ucPORT) {
 
 
 /*  */
-void USART_ClearTxBuffer(uint8_t ucPORT) {
-
-    uint8_t i = 0;
-
-    while(i < TX_BUFFER_SIZE) {
-        Ports[ucPORT].Registers.TxBuffer[i++] = 0;
-    }
-
-    Ports[ucPORT].Registers.TxBufferIndex = 0;
-}
-
-
-/*  */
 void USART_IRQ_Handler(uint8_t ucPORT) {
+
+    static uint8_t tx_offset = 0;
 
     if( LL_USART_IsActiveFlag_RXNE(Ports[ucPORT].handle) && LL_USART_IsEnabledIT_RXNE(Ports[ucPORT].handle) ) {
 
@@ -135,25 +126,56 @@ void USART_IRQ_Handler(uint8_t ucPORT) {
 
         Ports[ucPORT].Registers.RxBufferIndex++;
 
-        Ports[ucPORT].Registers.ePortState = USART_STATE_ANSWER_WAITING;
+        Ports[ucPORT].Registers.TxState = 1;
 
-        Ports[ucPORT].Registers.PortTimer = 10;
+        Ports[ucPORT].Registers.PortTimer = 20;
+
     }
+
+
+    if( LL_USART_IsActiveFlag_TXE(Ports[ucPORT].handle) && LL_USART_IsEnabledIT_TXE(Ports[ucPORT].handle) ){
+
+        if(Ports[ucPORT].Registers.TxDataLenght--){
+
+            LL_USART_TransmitData8(Ports[ucPORT].handle, *(Ports[ucPORT].Registers.pTxBuffer + tx_offset));
+
+            tx_offset++;
+
+            if(!Ports[ucPORT].Registers.TxDataLenght){
+                LL_USART_DisableIT_TXE(Ports[ucPORT].handle);
+                tx_offset = 0;
+                Ports[ucPORT].Registers.TxState = 0;
+            }
+        }
+    }
+
+
+    if( LL_USART_IsActiveFlag_TC(Ports[ucPORT].handle) && LL_USART_IsEnabledIT_TC(Ports[ucPORT].handle) ){
+
+        LL_USART_ClearFlag_TC(Ports[ucPORT].handle);
+    }
+
 }
 
 
 /*  */
 void USART_TimerHandler(uint8_t ucPORT) {
 
-    if(Ports[ucPORT].Registers.PortTimer) Ports[ucPORT].Registers.PortTimer--;
+    if(Ports[ucPORT].Registers.PortTimer){
+        Ports[ucPORT].Registers.PortTimer--;
+        Ports[ucPORT].Registers.RxState = 1;
+    }
     else {
 
-        if( Ports[ucPORT].Registers.ePortState == USART_STATE_ANSWER_WAITING ) {
-            Ports[ucPORT].Registers.ePortState = USART_STATE_IDLE;
-            Ports[ucPORT].Registers.RxBufferIndex = 0;
-
+        if( Ports[ucPORT].Registers.RxState ) {
+            Ports[ucPORT].Registers.RxState = 0;
             Ports[ucPORT].Registers.NewMessageReceivedFlag = SET;
         }
     }
+}
+
+/* Grazina pointeri i RX buferi */
+char *USART_GetRxBufferPtr(uint8_t ucPORT){
+    return Ports[ucPORT].Registers.RxBuffer;
 }
 

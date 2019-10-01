@@ -23,6 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "globals.h"
 #include "usart.h"
 /* USER CODE END Includes */
 
@@ -67,6 +68,8 @@ static void MX_USART2_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+  static uint32_t delay = 0;
+  static uint8_t led_delay = 0;
 
   /* USER CODE END 1 */
 
@@ -107,6 +110,25 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+      if(delay < timestamp){
+
+        USART_SendByte(SECONDARY_PORT, 'D');
+        //USART_SendString( SECONDARY_PORT, "QWERTY12345" );
+
+        if(led_delay) led_delay--;
+        else LED2_OFF();
+
+        delay = timestamp + 100;
+      }
+
+      if(Ports[SECONDARY_PORT].Registers.NewMessageReceivedFlag){
+
+          LED2_ON();
+          Ports[SECONDARY_PORT].Registers.NewMessageReceivedFlag = 0;
+          led_delay = 2;
+      }
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

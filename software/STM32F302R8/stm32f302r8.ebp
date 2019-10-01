@@ -14,18 +14,18 @@
 				<Option compiler="armgcc_eb" />
 				<Option projectDeviceOptionsRelation="0" />
 				<Compiler>
-					<Add option="-g3" />
-					<Add option="-O0" />
 					<Add option="-Wall" />
 					<Add option="-fdata-sections" />
 					<Add option="-ffunction-sections" />
+					<Add option="-O0" />
+					<Add option="-g3" />
 				</Compiler>
 				<Cpp>
-					<Add option="-g3" />
-					<Add option="-O0" />
 					<Add option="-Wall" />
 					<Add option="-fdata-sections" />
 					<Add option="-ffunction-sections" />
+					<Add option="-O0" />
+					<Add option="-g3" />
 				</Cpp>
 				<Assembler>
 					<Add option="-Wa,--gdwarf-2" />
@@ -33,6 +33,11 @@
 				<Linker>
 					<Add option="-Wl,--gc-sections" />
 				</Linker>
+				<ExtraCommands>
+					<Add after="arm-none-eabi-objcopy -S -O binary Output/bin/Debug/qqq.elf Output/bin/Debug/qqq.bin" />
+					<Mode before="0" />
+					<Mode after="1" />
+				</ExtraCommands>
 			</Target>
 			<Target title="Release">
 				<Option output="Output\bin\Release\qqq.elf" />
@@ -42,16 +47,16 @@
 				<Option compiler="armgcc_eb" />
 				<Option projectDeviceOptionsRelation="0" />
 				<Compiler>
-					<Add option="-O2" />
-					<Add option="-g2" />
 					<Add option="-fdata-sections" />
 					<Add option="-ffunction-sections" />
+					<Add option="-O2" />
+					<Add option="-g2" />
 				</Compiler>
 				<Cpp>
-					<Add option="-O2" />
-					<Add option="-g2" />
 					<Add option="-fdata-sections" />
 					<Add option="-ffunction-sections" />
+					<Add option="-O2" />
+					<Add option="-g2" />
 				</Cpp>
 				<Assembler>
 					<Add option="-Wa,--no-warn" />
@@ -59,22 +64,24 @@
 				<Linker>
 					<Add option="-Wl,--gc-sections" />
 				</Linker>
+				<ExtraCommands>
+					<Add after="arm-none-eabi-objcopy -S -O binary Output/bin/Release/qqq.elf Output/bin/Release/qqq.bin" />
+					<Mode before="0" />
+					<Mode after="1" />
+				</ExtraCommands>
 			</Target>
 		</Build>
 		<Device>
 			<Add option="$device=cortex-m4" />
 			<Add option="$lscript=startup/stm32f302r8_flash.ld" />
-			<Add option="$stack=0x0100" />
-			<Add option="$heap=0x0000" />
+			<Add option="$stack=0x0200" />
+			<Add option="$heap=0x0400" />
 		</Device>
 		<Compiler>
 			<Add option="-mfloat-abi=soft" />
 			<Add option="-fno-strict-aliasing" />
 			<Add symbol="STM32F302x8" />
 			<Add symbol="USE_FULL_LL_DRIVER" />
-			<Add directory=".\inc" />
-			<Add directory=".\src" />
-			<Add directory=".\cmsis" />
 		</Compiler>
 		<Linker>
 			<Add option="-eb_lib=n" />
@@ -107,7 +114,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h" />
-		<Unit filename="Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal.h" />
 		<Unit filename="Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_ll_adc.h" />
 		<Unit filename="Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_ll_bus.h" />
 		<Unit filename="Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_ll_comp.h" />

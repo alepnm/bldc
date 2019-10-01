@@ -1,17 +1,14 @@
 #ifndef USART_H_INCLUDED
 #define USART_H_INCLUDED
 
-#include "stdio.h"
 #include "stm32f3xx_ll_usart.h"
 
 #define PRIMARY_PORT    0
 #define SECONDARY_PORT  1
 
 enum {  USART_STATE_IDLE = 0,
-        USART_STATE_BUSY,
-        USART_STATE_ANSWER_WAITING,
-        USART_STATE_DATA_TRANSMITTED,
-        USART_STATE_DATA_RECEIVED
+        USART_STATE_TX,
+        USART_STATE_RX
 }ePortState;
 
 
@@ -37,33 +34,34 @@ typedef struct _port{
     }Config;
 
     struct{
-        uint8_t             ePortState;                 // porto busena
+        uint8_t             RxState;
+        uint8_t             TxState;
         uint8_t             PortError;
         volatile uint8_t    PortTimer;                  // porto taimeris
         uint8_t             ReceivedData;               // priimtas baitas
         uint8_t             RxBufferIndex;              // porto RX buferio indeksas
         char                RxBuffer[RX_BUFFER_SIZE];   // porto RX buferis
-        uint8_t             TxBufferIndex;              // porto TX buferio indeksas
-        char                TxBuffer[TX_BUFFER_SIZE];   // porto TX buferis
+        uint8_t             TxDataLenght;// siunciamu duomenu kiekis
+        char                *pTxBuffer;                 // pointeris i TX duomenys
         uint8_t             NewMessageReceivedFlag;
     }Registers;
 
 }Port_TypeDef;
 
 
-extern const uint32_t baudrates[7];
-extern uint8_t NewMessageReceivedFlag;
+extern Port_TypeDef     Ports[];
+extern const uint32_t   baudrates[7];
 
 
 void    USART_PortsInit(void);
 void    USART_Config( uint8_t ucPORT );
-void    USART_Send( uint8_t ucPORT, void* buf, size_t size_of_data );
+void    USART_Send( uint8_t ucPORT, char* data, uint8_t len );
 void    USART_SendByte( uint8_t ucPORT, char data );
 void    USART_SendString( uint8_t ucPORT, const char* str );
 void    USART_IRQ_Handler( uint8_t ucPORT );
 void    USART_TimerHandler( uint8_t ucPORT );
 void    USART_ClearRxBuffer( uint8_t ucPORT );
-void    USART_ClearTxBuffer(uint8_t ucPORT);
+char    *USART_GetRxBufferPtr(uint8_t ucPORT);
 #endif /* USART_H_INCLUDED */
 
 
