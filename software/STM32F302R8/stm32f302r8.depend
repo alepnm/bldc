@@ -1330,18 +1330,18 @@
 1569747386 d:\alex\desktop\bldc\software\stm32f302r8\drivers\stm32f3xx_hal_driver\inc\stm32f3xx_hal_wwdg.h
 	"stm32f3xx_hal_def.h"
 
-1569882426 source:d:\alex\desktop\bldc\software\stm32f302r8\core\libs\usart.c
+1569955613 source:d:\alex\desktop\bldc\software\stm32f302r8\core\libs\usart.c
 	"usart.h"
 
-1569882562 d:\alex\desktop\bldc\software\stm32f302r8\core\libs\usart.h
-	"stdio.h"
+1569949847 d:\alex\desktop\bldc\software\stm32f302r8\core\libs\usart.h
 	"stm32f3xx_ll_usart.h"
 
 1569747386 d:\alex\desktop\bldc\software\stm32f302r8\drivers\stm32f3xx_hal_driver\inc\stm32f3xx_ll_usart.h
 	"stm32f3xx.h"
 
-1569881154 source:d:\alex\desktop\bldc\software\stm32f302r8\core\src\main.c
+1569957142 source:d:\alex\desktop\bldc\software\stm32f302r8\core\src\main.c
 	"main.h"
+	"globals.h"
 	"usart.h"
 
 1569879343 d:\alex\desktop\bldc\software\stm32f302r8\core\inc\main.h
@@ -1514,13 +1514,14 @@
 1569750059 source:d:\alex\desktop\bldc\software\stm32f302r8\core\libs\nucleo\nucleo.c
 	"nucleo.h"
 
-1569755625 d:\alex\desktop\bldc\software\stm32f302r8\core\libs\nucleo\nucleo.h
-	"usart.h"
+1569948963 d:\alex\desktop\bldc\software\stm32f302r8\core\libs\nucleo\nucleo.h
+	"stm32f3xx_ll_gpio.h"
 
-1569880054 source:d:\alex\desktop\bldc\software\stm32f302r8\core\src\stm32f3xx_it.c
+1569948963 source:d:\alex\desktop\bldc\software\stm32f302r8\core\src\stm32f3xx_it.c
 	"main.h"
 	"stm32f3xx_it.h"
 	"nucleo.h"
+	"usart.h"
 
 1569879343 d:\alex\desktop\bldc\software\stm32f302r8\core\inc\stm32f3xx_it.h
 
@@ -2037,6 +2038,10 @@
 	"usart.h"
 
 1569933322 c:\work\git\bldc\software\stm32f302r8\core\inc\globals.h
+	"nucleo.h"
+	"usart.h"
+
+1569948963 d:\alex\desktop\bldc\software\stm32f302r8\core\inc\globals.h
 	"nucleo.h"
 	"usart.h"
 

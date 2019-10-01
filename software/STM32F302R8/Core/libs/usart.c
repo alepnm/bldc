@@ -126,10 +126,11 @@ void USART_IRQ_Handler(uint8_t ucPORT) {
 
         Ports[ucPORT].Registers.RxBufferIndex++;
 
-        Ports[ucPORT].Registers.TxState = 1;
+        Ports[ucPORT].Registers.RxState = 1;
 
         Ports[ucPORT].Registers.PortTimer = 20;
 
+//        LL_USART_ClearFlag_RTO(Ports[ucPORT].handle);
     }
 
 
@@ -155,6 +156,9 @@ void USART_IRQ_Handler(uint8_t ucPORT) {
         LL_USART_ClearFlag_TC(Ports[ucPORT].handle);
     }
 
+//    if (LL_USART_IsActiveFlag_RTO(Ports[ucPORT].handle) && LL_USART_IsEnabledIT_RTO(Ports[ucPORT].handle) ){
+//        LL_USART_ClearFlag_RTO(Ports[ucPORT].handle);
+//    }
 }
 
 
@@ -163,9 +167,7 @@ void USART_TimerHandler(uint8_t ucPORT) {
 
     if(Ports[ucPORT].Registers.PortTimer){
         Ports[ucPORT].Registers.PortTimer--;
-        Ports[ucPORT].Registers.RxState = 1;
-    }
-    else {
+    }else{
 
         if( Ports[ucPORT].Registers.RxState ) {
             Ports[ucPORT].Registers.RxState = 0;
@@ -178,4 +180,23 @@ void USART_TimerHandler(uint8_t ucPORT) {
 char *USART_GetRxBufferPtr(uint8_t ucPORT){
     return Ports[ucPORT].Registers.RxBuffer;
 }
+
+
+/* hardwarinio RX taimauto inicializacija (jai USARTAS palaiko) */
+void USART_RTO_Init(USART_TypeDef *handle){
+
+    LL_USART_SetRxTimeout(handle, 1000);
+    LL_USART_EnableRxTimeout(handle);
+    LL_USART_ClearFlag_RTO(handle);
+    LL_USART_EnableIT_RTO(handle);
+}
+
+void USART_RTO_IT_Clear(USART_TypeDef *handle){
+
+    if (LL_USART_IsActiveFlag_RTO(handle) && LL_USART_IsEnabledIT_RTO(handle) ){
+        LL_USART_ClearFlag_RTO(handle);
+    }
+}
+
+
 

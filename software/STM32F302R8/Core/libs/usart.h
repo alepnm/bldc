@@ -25,7 +25,7 @@ typedef struct _port{
 
     USART_TypeDef           *handle;
 
-    struct{
+    struct port_conf{
         uint8_t             MbAddr;
         baudrate_t          Baudrate;
         parity_t            Parity;
@@ -41,13 +41,12 @@ typedef struct _port{
         uint8_t             ReceivedData;               // priimtas baitas
         uint8_t             RxBufferIndex;              // porto RX buferio indeksas
         char                RxBuffer[RX_BUFFER_SIZE];   // porto RX buferis
-        uint8_t             TxDataLenght;// siunciamu duomenu kiekis
+        uint8_t             TxDataLenght;               // siunciamu duomenu kiekis
         char                *pTxBuffer;                 // pointeris i TX duomenys
         uint8_t             NewMessageReceivedFlag;
     }Registers;
 
 }Port_TypeDef;
-
 
 extern Port_TypeDef     Ports[];
 extern const uint32_t   baudrates[7];

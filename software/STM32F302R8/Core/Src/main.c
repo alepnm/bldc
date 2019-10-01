@@ -53,7 +53,8 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+static void SysInit(void);
+static void SysExec(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -68,8 +69,6 @@ static void MX_USART2_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  static uint32_t delay = 0;
-  static uint8_t led_delay = 0;
 
   /* USER CODE END 1 */
 
@@ -102,7 +101,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  USART_PortsInit();
+  SysInit();
 
   /* USER CODE END 2 */
 
@@ -110,24 +109,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      if(delay < timestamp){
-
-        USART_SendByte(SECONDARY_PORT, 'D');
-        //USART_SendString( SECONDARY_PORT, "QWERTY12345" );
-
-        if(led_delay) led_delay--;
-        else LED2_OFF();
-
-        delay = timestamp + 100;
-      }
-
-      if(Ports[SECONDARY_PORT].Registers.NewMessageReceivedFlag){
-
-          LED2_ON();
-          Ports[SECONDARY_PORT].Registers.NewMessageReceivedFlag = 0;
-          led_delay = 2;
-      }
-
+      SysExec();
 
     /* USER CODE END WHILE */
 
@@ -265,6 +247,41 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+static void SysInit(void){
+
+      USART_PortsInit();
+      //ADC_Init();
+      //TIM_PwmInit();
+
+}
+
+
+/*  */
+static void SysExec(void){
+
+    static uint32_t delay = 0;
+    static uint8_t led_delay = 0;
+
+    if(delay < timestamp){
+
+        //USART_SendByte(SECONDARY_PORT, 'D');
+        USART_SendString( SECONDARY_PORT, "QWERTY12345" );
+
+        if(led_delay) led_delay--;
+        else LED2_OFF();
+
+        delay = timestamp + 10;
+    }
+
+    if(Ports[SECONDARY_PORT].Registers.NewMessageReceivedFlag){
+
+        LED2_ON();
+        Ports[SECONDARY_PORT].Registers.NewMessageReceivedFlag = 0;
+        led_delay = 2;
+    }
+}
+
+
 
 /* USER CODE END 4 */
 
