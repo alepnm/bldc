@@ -1531,7 +1531,7 @@
 1569928608 c:\work\git\bldc\software\stm32f302r8\core\libs\nucleo\nucleo.h
 	"stm32f3xx_ll_gpio.h"
 
-1569935577 c:\work\git\bldc\software\stm32f302r8\core\libs\usart.h
+1569997125 c:\work\git\bldc\software\stm32f302r8\core\libs\usart.h
 	"stm32f3xx_ll_usart.h"
 
 1569928360 c:\work\git\bldc\software\stm32f302r8\drivers\stm32f3xx_hal_driver\inc\stm32f3xx_ll_usart.h

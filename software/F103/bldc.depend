@@ -4479,7 +4479,8 @@
 	"main.h"
 	"bldc.h"
 
-1569842681 c:\work\git\bldc\software\f103\core\inc\main.h
+1570795987 c:\work\git\bldc\software\f103\core\inc\main.h
+	"stm32f1xx_ll_adc.h"
 	"stm32f1xx_ll_rcc.h"
 	"stm32f1xx_ll_bus.h"
 	"stm32f1xx_ll_system.h"
@@ -4589,13 +4590,14 @@
 1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal.h
 	"stm32f1xx_hal_conf.h"
 
-1569823631 c:\work\git\bldc\software\f103\core\inc\stm32f1xx_hal_conf.h
+1570795945 c:\work\git\bldc\software\f103\core\inc\stm32f1xx_hal_conf.h
 	"stm32f1xx_hal_rcc.h"
-	"stm32f1xx_hal_exti.h"
 	"stm32f1xx_hal_gpio.h"
+	"stm32f1xx_hal_exti.h"
 	"stm32f1xx_hal_dma.h"
 	"stm32f1xx_hal_eth.h"
 	"stm32f1xx_hal_can.h"
+	"Legacy/stm32f1xx_hal_can_legacy.h"
 	"stm32f1xx_hal_cec.h"
 	"stm32f1xx_hal_cortex.h"
 	"stm32f1xx_hal_adc.h"
@@ -4611,7 +4613,6 @@
 	"stm32f1xx_hal_rtc.h"
 	"stm32f1xx_hal_pccard.h"
 	"stm32f1xx_hal_sd.h"
-	"stm32f1xx_hal_mmc.h"
 	"stm32f1xx_hal_nand.h"
 	"stm32f1xx_hal_spi.h"
 	"stm32f1xx_hal_tim.h"
@@ -4622,6 +4623,7 @@
 	"stm32f1xx_hal_wwdg.h"
 	"stm32f1xx_hal_pcd.h"
 	"stm32f1xx_hal_hcd.h"
+	"stm32f1xx_hal_mmc.h"
 
 1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_rcc.h
 	"stm32f1xx_hal_def.h"
@@ -4798,7 +4800,7 @@
 1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_ll_gpio.h
 	"stm32f1xx.h"
 
-1569842680 c:\work\git\bldc\software\f103\core\inc\stm32_assert.h
+1570795987 c:\work\git\bldc\software\f103\core\inc\stm32_assert.h
 
 1569823631 c:\work\git\bldc\software\f103\core\inc\bldc.h
 
@@ -4916,5 +4918,12 @@
 	"bldc.h"
 
 1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\stm32f1xx_hal_exti.h
+	"stm32f1xx_hal_def.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\legacy\stm32f1xx_hal_can_legacy.h
+	"stm32f1xx_hal_def.h"
+	"stm32f1xx_hal_can_ex_legacy.h"
+
+1569571626 c:\work\git\bldc\software\f103\drivers\stm32f1xx_hal_driver\inc\legacy\stm32f1xx_hal_can_ex_legacy.h
 	"stm32f1xx_hal_def.h"
 

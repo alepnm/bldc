@@ -28,6 +28,7 @@ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
+#include "stm32f1xx_ll_adc.h"
 #include "stm32f1xx_ll_rcc.h"
 #include "stm32f1xx_ll_bus.h"
 #include "stm32f1xx_ll_system.h"
@@ -75,6 +76,18 @@ uint8_t BLDC_SystemInit(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_Pin LL_GPIO_PIN_13
 #define LED_GPIO_Port GPIOC
+#define DIR_Pin LL_GPIO_PIN_14
+#define DIR_GPIO_Port GPIOC
+#define TEMPON_Pin LL_GPIO_PIN_15
+#define TEMPON_GPIO_Port GPIOC
+#define CURRENT_Pin LL_GPIO_PIN_3
+#define CURRENT_GPIO_Port GPIOA
+#define TEMPERATURE_Pin LL_GPIO_PIN_4
+#define TEMPERATURE_GPIO_Port GPIOA
+#define SPEED_Pin LL_GPIO_PIN_5
+#define SPEED_GPIO_Port GPIOA
+#define VBON_Pin LL_GPIO_PIN_2
+#define VBON_GPIO_Port GPIOB
 #ifndef NVIC_PRIORITYGROUP_0
 #define NVIC_PRIORITYGROUP_0         ((uint32_t)0x00000007) /*!< 0 bit  for pre-emption priority,
                                                                  4 bits for subpriority */
