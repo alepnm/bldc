@@ -1854,7 +1854,7 @@
 1569928360 c:\work\git\bldc\software\stm32f302r8\drivers\stm32f3xx_hal_driver\inc\stm32f3xx_hal_wwdg.h
 	"stm32f3xx_hal_def.h"
 
-1569943108 source:c:\work\git\bldc\software\stm32f302r8\core\src\main.c
+1569997125 source:c:\work\git\bldc\software\stm32f302r8\core\src\main.c
 	"main.h"
 	"globals.h"
 	"usart.h"
@@ -2034,7 +2034,7 @@
 
 1569909406 source:c:\work\git\bldc\software\stm32f302r8\startup\startup_stm32f30x.s
 
-1569942690 source:c:\work\git\bldc\software\stm32f302r8\core\libs\usart.c
+1569997125 source:c:\work\git\bldc\software\stm32f302r8\core\libs\usart.c
 	"usart.h"
 
 1569933322 c:\work\git\bldc\software\stm32f302r8\core\inc\globals.h
